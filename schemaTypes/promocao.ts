@@ -7,6 +7,11 @@ export const promocaoType = defineType({
   fields: [
 
      defineField({
+      name: 'nome',
+      type: 'number',
+      
+    }),
+     defineField({
       name: 'id',
       type: 'number',
       
