@@ -12,7 +12,7 @@ export const promocaoType = defineType({
       
     }),
     defineField({
-      name: 'promoção',
+      name: 'imagem',
       type: 'image',
     }),
 
