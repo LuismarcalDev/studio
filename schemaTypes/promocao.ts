@@ -2,7 +2,7 @@ import {defineField, defineType} from 'sanity'
 
 export const promocaoType = defineType({
   name: 'Promocao',
-  title: 'Promocaoo',
+  title: 'Promocao',
   type: 'document',
   fields: [
 
