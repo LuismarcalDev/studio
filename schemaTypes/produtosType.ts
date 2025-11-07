@@ -36,7 +36,7 @@ export const produtosType = defineType({
           { title: 'Linguiças', value: 'Linguiças' },
           { title: 'Defumados', value: 'Defumados' },
         ],
-        layout: 'dropdown', // faz virar um select
+        layout: 'dropdown', 
       },
     }),
   ],
