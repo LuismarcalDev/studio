@@ -20,18 +20,6 @@ export const adminType = defineType({
       title: 'Imagem',
       type: 'image',
     }),
-    defineField({
-      name: 'categoria',
-      title: 'Categoria',
-      type: 'string',
-      options: {
-        list: [
-          { title: 'Administrador Geral', value: 'geral' },
-          { title: 'Editor', value: 'editor' },
-          { title: 'Moderador', value: 'moderador' },
-        ],
-        layout: 'dropdown', // faz virar um select
-      },
-    }),
+
   ],
 })

@@ -26,6 +26,19 @@ export const produtosType = defineType({
       name: 'descricao',
       type: 'string',
     }),
+        defineField({
+      name: 'categoria',
+      title: 'Categoria',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Salames', value: 'Salames' },
+          { title: 'Linguiças', value: 'Linguiças' },
+          { title: 'Defumados', value: 'Defumados' },
+        ],
+        layout: 'dropdown', // faz virar um select
+      },
+    }),
   ],
 })
 
